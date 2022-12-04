@@ -1,9 +1,12 @@
 # Introduction to Algorithms,implemented in C++
 
 ## [Sort](./src/sort/)
-| Name | Best | Average | Worest | Memory | InPlace | Stability | Method | 
+| Name | Best | Average | Worest | Memory | InPlace | Stability | Comment | 
 | ---- | ---- | ------- | ------ | ------ | ------- | --------- | ------ |
-| [quickSort](./src/sort/quickSort/) | $O(nlog(n))$ | $O(nlog(n))$ | $O(n^2)$ | $O(nlog(n))$ | Yes | No | partition |
+| [quickSort](./src/sort/quickSort/) | $O(nlog(n))$ | $O(nlog(n))$ | $O(n^2)$ | $O(log(n))$ | Yes | No | quickSort is usually done in-place with $O(log(n))$ stack space |
+| [heapSort](./src/sort/heapSort/) | $O(nlog(n))$ | $O(nlog(n))$ | $O(nlog(n))$ | $O(1)$ | Yes | No |  |
+
+
 ## [Search](./src/search/)
 | Name | Best | Average | Worest | Memory | InPlace |
 | ---- | ---- | ------- | ------ | ------ | ------- | 
