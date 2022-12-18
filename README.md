@@ -1,5 +1,11 @@
 # Introduction to Algorithms,implemented in C++
 
+## [Math](./src/math/)
+| Name | Average | Memory | 
+| ---- | ------- | -------|
+| [fastPower](./src/math/fastPower.cpp) | $O(log(n))$ | $O(1)$ |
+
+
 ## [Sort](./src/sort/)
 | Name | Best | Average | Worest | Memory | InPlace | Stability | Comment | 
 | ---- | ---- | ------- | ------ | ------ | ------- | --------- | ------ |
