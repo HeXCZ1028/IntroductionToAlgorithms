@@ -1,10 +1,10 @@
 # Introduction to Algorithms,implemented in C++
 
 ## [Math](./src/math/)
-| Name | Average | Memory | 
-| ---- | ------- | -------|
-| [fastPower](./src/math/fastPower.cpp) | $O(log(n))$ | $O(1)$ |
-
+| Name | Average | Memory | Comment | 
+| ---- | ------- | -------| ------- |
+| [fastPower](./src/math/fastPower.cpp) | $O(log(n))$ | $O(1)$ | |
+| [hornerRule](./src/math/horner.cpp) | $O(n)$ | $O(1)$ | compute Polynomial by horner Rule|
 
 ## [Sort](./src/sort/)
 | Name | Best | Average | Worest | Memory | InPlace | Stability | Comment | 
