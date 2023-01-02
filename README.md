@@ -4,7 +4,9 @@
 | Name | Average | Memory | Comment | 
 | ---- | ------- | -------| ------- |
 | [fastPower](./src/math/fastPower.cpp) | $O(log(n))$ | $O(1)$ | |
-| [hornerRule](./src/math/horner.cpp) | $O(n)$ | $O(1)$ | compute Polynomial by horner Rule|
+| [hornerRule](./src/math/horner.cpp) | $O(n)$ | $O(1)$ | compute Polynomial by horner Rule |
+| [gcd](./src/math/gcd.cpp) |  | $O(1)$ | compute the greatest common divisor of two integer |
+| [primeFactor](./src/math/primeFactor.cpp) | $O(n)$ | $O(1)$ | compute the unique prime factor of integer|
 
 ## [Sort](./src/sort/)
 | Name | Best | Average | Worest | Memory | InPlace | Stability | Comment | 
