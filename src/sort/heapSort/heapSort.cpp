@@ -11,9 +11,6 @@ void maxHeapify(vector<int> &nums,int i,int heapSize){
     int largest=i;// 表示i和i的左右孩子中最大值的下标。
     if(left<heapSize && nums[left]>nums[i])
         largest=left;
-    else
-        largest=i;
-    
     if(right<heapSize && nums[right]>nums[largest])
         largest=right;
     
@@ -23,7 +20,30 @@ void maxHeapify(vector<int> &nums,int i,int heapSize){
         
         maxHeapify(nums,largest,heapSize);
     }
+}
+
+// 迭代版调整堆,避免递归时间过大
+void maxHeapifyIterative (vector<int> &nums,int i,int heapSize)
+{
+    while(i<heapSize)
+    {
+        int left=2*i+1;
+        int right=2*i+2;
+        int largest=i;// 表示i和i的左右孩子中最大值的下标。
+        if(left<heapSize && nums[left]>nums[i])
+            largest=left;
+        if(right<heapSize && nums[right]>nums[largest])
+            largest=right;
         
+        if(largest!=i){
+            std::swap(nums[i],nums[largest]);
+            i=largest;
+        }
+        else
+        {
+            break;
+        }
+    }
 }
 
 // 建堆
